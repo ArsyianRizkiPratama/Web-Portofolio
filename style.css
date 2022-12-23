@@ -1,0 +1,204 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #91b3bc;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto; /*... bagian ini untuk membuat margin ada di tengah ...*/
+    position: relative;
+}
+
+.pengalaman{
+    background-color: #80c4d8;
+    margin: auto;
+}
+
+.keahlian{
+    background-color: #80c4d8;
+    margin: auto;
+}
+
+.logo a{
+    font-size: 45px;
+    font-weight: 750;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 13px;
+    border-radius: 15px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #2e323c;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.kolom {
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.tengah .kolom4 .desk {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru{
+    background: #5b7d87;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #45415e;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #45415e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-pink:hover {
+    background: #5b7d87;
+    text-decoration: none;
+}
+
+.tengah {
+text-align: center;
+width: 100%;
+}
+
+.kolom2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-sertifikat{
+    padding: 10px 15px 10px 15px;
+
+}
+
+section .tengah .kolom5{
+    background: #2e323c;
+}
+
+section .tengah .kolom5 h2{
+    text-align: center;
+    color: #bfbfbf;
+}
+
+section .tengah .kolom5 .deskripsi{
+    text-align: center;
+    color: #bfbfbf;
+}
+
+section .tengah .kolom5 .telp{
+    text-align: left;
+    color: #bfbfbf;
+    margin-left: 25px;
+}
+
+section .tengah .kolom5 .email{
+    text-align: left;
+    color: #bfbfbf;
+    margin-left: 25px;
+}
+
+section .tengah .kolom5 a{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
